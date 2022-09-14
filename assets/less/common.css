@@ -1,0 +1,24 @@
+@font-face {
+  font-family: GuardianSansRegular;
+  src: url(../fonts/GuardianSansRegular.otf);
+}
+@font-face {
+  font-family: GuardianSansBold;
+  src: url(../fonts/GuardianSansBold.otf);
+}
+@font-face {
+  font-family: GuardianSansMedium;
+  src: url(../fonts/GuardianSansMedium.otf);
+}
+@font-face {
+  font-family: GuardianSansLight;
+  src: url(../fonts/GuardianSansLight.otf);
+}
+@font-face {
+  font-family: GuardianSansBlack;
+  src: url(../fonts/GuardianSansBlack.otf);
+}
+@font-face {
+  font-family: GuardianSansThin;
+  src: url(../fonts/GuardianSansThin.otf);
+}
