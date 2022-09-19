@@ -26,7 +26,7 @@
     .group-search {
         display: flex;
         float: right;
-        padding: 46px 100px 0px 13px;
+        padding: 46px 100px 52px 13px;
         p {
             font-family: GuardianSansRegular;
             font-size: 14px;
@@ -36,7 +36,7 @@
             text-align: center;
             letter-spacing: 0.2px;
             color: #000000;
-            padding: 35px;
+            padding: 0px 35px;
             &:not(:first-child) {
                 border-left: 1px solid #D9D9D9;
             }
@@ -84,19 +84,27 @@
         display: flex;
         align-items: flex-end;
         color: #FFFFFF;
+        max-width: 30%;
+        position: absolute;
+        bottom: 0;
+        left: 100px;
     }
     a {
         font-family: GuardianSansMedium;
         font-size: 17px;
         line-height: 24px;
         color: #A7CB19;
+        position: absolute;
+        bottom: 0;
+        left: 100px;
         &:hover {
             text-decoration: none;
         }
     }
-    // .slider-item {
-    //     background-image: url('../images/beautiful-architecture-building.png') ;
-    // }
+    .slider-item {
+        // background-image: url('../images/beautiful-architecture-building.png') ;
+        position: relative;
+    }
 }
 .slick-dots {
     display: flex;
