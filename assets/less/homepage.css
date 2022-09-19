@@ -20,10 +20,10 @@
   width: 100%;
 }
 .slider .slick-list {
-  height: 400px !important;
+  height: 415px !important;
 }
 .slider .slick-list .slick-track {
-  height: 400px !important;
+  height: 415px !important;
 }
 .slider .text {
   font-family: GuardianSansBold;
@@ -48,6 +48,13 @@
 }
 .slider a:hover {
   text-decoration: none;
+}
+.slider .pause-icon {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  width: 16px;
+  height: 16px;
 }
 .slider .slider-item {
   position: relative;
@@ -234,7 +241,7 @@
   color: #3B2B16;
   border-left: 8px solid #A7CB19;
   padding-left: 22px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
 }
 .event-module .left-item {
   position: relative;
@@ -265,7 +272,7 @@
   align-items: flex-end;
   text-transform: capitalize;
   color: #6B5A4D;
-  padding: 0px 0px 35px;
+  padding: 0px 0px 65px;
 }
 .event-module .content .sub-title {
   /* Guardian Sans/Mobile/Light/Body */
