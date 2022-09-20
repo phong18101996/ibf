@@ -502,3 +502,67 @@
 .horizontal-menu .dropdown-toggle:after {
   background-image: url('../images/dropdown.svg');
 }
+.subscribe-form .form-content .item {
+  width: 340px;
+  height: 543px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.subscribe-form .form-content .item .text {
+  position: absolute;
+  top: 25%;
+}
+.subscribe-form .modal-dialog {
+  max-width: 1080px;
+}
+.subscribe-form .modal-content {
+  background: unset;
+}
+.subscribe-form .modal-header {
+  border: none;
+}
+.subscribe-form .modal-footer {
+  border: none;
+}
+.subscribe-form .email {
+  background: #FFFFFF;
+  border: 1px solid #9FA19D;
+}
+.subscribe-form .submit-btn {
+  background: #D3DE46;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+.subscribe-form .text p {
+  color: #FFFFFF;
+}
+.subscribe-form .text .title {
+  font-family: GuardianSansBold;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.subscribe-form .text .sub-title {
+  font-family: GuardianSansRegular;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.subscribe-form .big-title {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: GuardianSansMedium;
+  font-size: 44px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
