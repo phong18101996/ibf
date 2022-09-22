@@ -1,0 +1,42 @@
+.examination-interested {
+  padding: 60px 0px;
+  margin: 0px;
+}
+.examination-interested .group-item {
+  padding: 15px 15px;
+}
+.examination-interested .group-item:not(:first-child) {
+  padding-left: 5px;
+}
+.examination-interested .group-item .item {
+  aspect-ratio: 0.77;
+  background-size: 100%;
+  margin: 0px 15px;
+  position: relative;
+  padding: 0px;
+}
+.examination-interested .group-item .item p {
+  font-family: GuardianSansMedium;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  top: 40%;
+  padding: 0px 30px;
+}
+.examination-interested .title {
+  font-family: GuardianSansBold;
+  font-size: 32px;
+  line-height: 45px;
+  color: #464749;
+}
+.examination-interested .bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(32, 32, 32, 0.6);
+  display: flex;
+  justify-content: center;
+}
