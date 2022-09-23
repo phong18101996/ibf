@@ -1,0 +1,106 @@
+.announcements-slider {
+    .block-filter {
+        padding-left: 0px;
+        .form-group {
+            margin-bottom: 0px;
+        }
+        select {
+            option {
+                font-family: GuardianSansRegular;
+                font-size: 17px;
+                line-height: 24px;
+                color: #9091A8;
+            }
+        }
+    }
+    .announcements-slider-item {
+        margin: 0;
+        .slick-track {
+            position: relative;
+            left: 193px;
+            top: 0px;
+            opacity: unset !important;
+            width: 100% !important;
+            display: flex !important;
+        }
+        .slick-slide {
+            float: unset;
+        }
+        .slick-dots {
+            li {
+                button
+                {
+                    border: 1px solid #9FA19D;
+                } 
+            }
+        }  
+        .slick-prev {
+            background-image: url('../images/announcements/announcements-slider-prev.svg');
+            position: absolute;
+            width: 17px;
+            height: 27px;
+            top: -16px;
+            left: 80%;
+            float: right;
+        }
+        .slick-next {
+            width: 17px;
+            height: 27px;
+            background-image: url('../images/announcements/announcements-slider-next.svg');
+            position: absolute;
+            top: -17px;
+            right: 13%;
+        }
+        .item {
+            padding: 20px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 60px 15px;
+            &:first-child {
+                margin-left: 0px;
+            }
+            .first-title , .second-title, .content {
+                color: #464749;
+                line-height: 24px;
+            }
+            .first-title ,.second-title {
+                font-family: GuardianSansBold;
+            }
+            .first-title, .content {
+                font-size: 17px;
+            }
+            .second-title {
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                height: 120px;
+            }
+            .content {
+                font-family: GuardianSansRegular;
+                overflow: hidden;
+                height: 72px;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3; 
+                -webkit-box-orient: vertical;
+            }
+            .group-date-link {  
+                justify-content: space-between;
+                a {
+                    font-family: GuardianSansBold;
+                    font-size: 17px;
+                    line-height: 24px;
+                    text-align: right;
+                    color: #A7CB19;
+                }
+                p {
+                    font-family: GuardianSansRegular;
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: #464749;
+                }
+            }
+
+        }
+    }
+}
