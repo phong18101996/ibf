@@ -18,8 +18,17 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 1000,
     });
+
+    // form subsribe
+
     // $(window).on('load', function() {
     //     $('#exampleModal').modal('show');
+    // });
+
+    // form thanks you
+    
+    // $(window).on('load', function() {
+    //     $('#thanks-form').modal('show');
     // });
    
 });
