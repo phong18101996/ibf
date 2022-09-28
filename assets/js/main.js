@@ -18,12 +18,23 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 1000,
     });
+    $('.profile-slider-item').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        dots:false
+        // autoplay: true,
+        // autoplaySpeed: 1000,
+    });
 
     // form subsribe
 
-    $(window).on('load', function() {
-        $('#exampleModal').modal('show');
-    });
+    // $(window).on('load', function() {
+    //     $('#exampleModal').modal('show');
+    // });
 
     // form thanks you
     

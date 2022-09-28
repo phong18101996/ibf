@@ -1,0 +1,76 @@
+.career-profile-slider {
+    .profile-title {
+        p {
+            font-family: GuardianSansBold;
+            font-size: 36px;
+            line-height: 45px;
+            text-align: center;
+            color: #464749;
+        }
+    }
+    .profile-slider-item {
+        padding: 60px 0px;
+        .item {
+            img {
+                border-radius: 50%;
+            }
+            .text {
+                font-family: GuardianSansRegular;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #555555;
+            }
+            .title {
+                font-family: GuardianSansRegular;
+                font-size: 19px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #333333;
+            }
+            .sub-title {
+                font-family: GuardianSansRegular;
+                font-size: 13px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #777777;
+            }
+        }
+        .slick-prev {
+            background-image: url('../images/careers-profile-slider/right.svg');
+            // left: 515px;
+            // top: 390px;
+            left: 45%;
+            top: 98%;
+        }
+        .slick-next {
+            background-image: url('../images/careers-profile-slider/left.svg');
+            // right: 515px;
+            // top: 390px;
+            right: 45%;
+            top: 98%;
+        }
+    }
+}
+@media only screen and (min-width:1920px) { 
+    .career-profile-slider {
+        .profile-slider-item {
+            .slick-prev {
+                left: 46%;
+                top: 98%;
+            }
+            .slick-next {
+                right: 46%;
+                top: 98%;
+            }
+        }
+    }
+}

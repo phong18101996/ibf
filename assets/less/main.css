@@ -1558,3 +1558,65 @@ html {
   bottom: 0;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%);
 }
+.career-profile-slider .profile-title p {
+  font-family: GuardianSansBold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #464749;
+}
+.career-profile-slider .profile-slider-item {
+  padding: 60px 0px;
+}
+.career-profile-slider .profile-slider-item .item img {
+  border-radius: 50%;
+}
+.career-profile-slider .profile-slider-item .item .text {
+  font-family: GuardianSansRegular;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #555555;
+}
+.career-profile-slider .profile-slider-item .item .title {
+  font-family: GuardianSansRegular;
+  font-size: 19px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+.career-profile-slider .profile-slider-item .item .sub-title {
+  font-family: GuardianSansRegular;
+  font-size: 13px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777777;
+}
+.career-profile-slider .profile-slider-item .slick-prev {
+  background-image: url('../images/careers-profile-slider/right.svg');
+  left: 45%;
+  top: 98%;
+}
+.career-profile-slider .profile-slider-item .slick-next {
+  background-image: url('../images/careers-profile-slider/left.svg');
+  right: 45%;
+  top: 98%;
+}
+@media only screen and (min-width: 1920px) {
+  .career-profile-slider .profile-slider-item .slick-prev {
+    left: 46%;
+    top: 98%;
+  }
+  .career-profile-slider .profile-slider-item .slick-next {
+    right: 46%;
+    top: 98%;
+  }
+}
