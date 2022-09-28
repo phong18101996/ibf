@@ -1,0 +1,81 @@
+.careers-connect {
+  padding: 40px 0px 60px;
+}
+.careers-connect .group-text-and-title .title {
+  font-family: GuardianSansBold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #464749;
+  border-left: 8px solid #A7CB19;
+  padding-left: 25px;
+  padding-bottom: 26px;
+}
+.careers-connect .group-text-and-title .text {
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  color: #464749;
+}
+.careers-connect .group-item .left-img img {
+  width: 100%;
+  height: 100%;
+}
+.careers-connect .group-item .item {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.careers-connect .group-item .item .bg-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.careers-connect .group-item .right-text .first-title {
+  font-family: GuardianSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #6B5A4D;
+  margin: 0;
+  padding-top: 29px;
+}
+.careers-connect .group-item .right-text .second-title {
+  font-family: GuardianSansRegular;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6B5A4D;
+  padding: 0px 0px 10px;
+  margin: 0;
+}
+.careers-connect .group-item .right-text .text {
+  padding: 10px 0px 0px;
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  color: #271C0E;
+  min-height: 110px;
+}
+.careers-connect .group-item .right-text .find-more-link {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 26px;
+}
+.careers-connect .group-item .right-text .find-more-link a {
+  font-family: GuardianSansBold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: right;
+  color: #A7CB19;
+  padding-right: 30px;
+}
+.careers-connect .group-item .right-text .find-more-link a:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  .careers-connect .group-item .right-text .first-title,
+  .careers-connect .group-item .right-text .second-title,
+  .careers-connect .group-item .right-text .text {
+    padding-left: 15px;
+  }
+}
