@@ -87,6 +87,53 @@ $(document).ready(function() {
         // autoplay: true,
         // autoplaySpeed: 1000,
     });
+    $('.content-videos-slider-item').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      adaptiveHeight: true,
+      dots:false,
+      draggable: true,
+      swipeToSlide: true,
+      variableWidth: false,
+      responsive: [
+        {
+          breakpoint: 425,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+      ],
+    });
+    
+  // $('.slide:first').addClass('first-slide-is-active111');
+
+  // $('.content-videos-slider-item').on('afterChange', function (event, slick, currentSlide) {
+	// 		if (currentSlide === 0) {
+	// 		        console.log('First element');
+	// 		           $('.content-videos-slider-item .item:first').addClass('first-slide-is-active111');
+	// 		            } else {
+  //           	$('.content-videos-slider-item .item:first').removeClass('first-slide-is-active111');
+  //               }
+  // });
+});
 
     // form subsribe
 
@@ -99,9 +146,6 @@ $(document).ready(function() {
     // $(window).on('load', function() {
     //     $('#thanks-form').modal('show');
     // });
-
-
-});
 // stacked card
 // $(document).ready(function() { 
 //     var $card = $('.ibf-card');

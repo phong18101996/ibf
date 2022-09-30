@@ -17,12 +17,13 @@
             padding: 10px 0px;
         }
         a {
-            padding: 10px 0px 0px;
+            // padding: 10px 0px 20px;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 13px 16px;
+            padding: 13px 16px 0px;
+            margin-bottom: 20px;
             width: 159px;
             height: 50px;
             background: #D3DE46;
@@ -35,6 +36,78 @@
             color: #464749;
             &:hover {
                 text-decoration: none;
+            }
+        }
+    }
+    .content-videos-slider-item {
+        padding: 20px 0px 20px;
+        .item {
+            // box-shadow : 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .box-shadow {
+            box-shadow : 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .group-content {
+            // box-shadow : 0px 4px 10px rgba(0, 0, 0, 0.2);
+            .light-title {
+                font-family: GuardianSansLight;
+                font-size: 14px;
+                line-height: 24px;
+                color: #484C46;
+                padding: 21px 21px 2px;
+            }
+            .strong-text {
+                font-family: GuardianSansBold;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #484C46;
+                padding: 2px 21px 21px;
+            }
+        }
+        .image-wrapper {
+            img {
+                width: 100%;
+            }
+            iframe {
+                width: 100%;
+            }
+        }
+        .slick-prev {
+            background-image: url('../images/careers-blog-slider/career-blog-prev.svg');
+            top: -24%;
+            left: 90%;
+            width: 18px;
+        }
+        .slick-next {
+            background-image: url('../images/careers-blog-slider/career-blog-next.svg');
+            top: -24%;
+            right: 2%;
+            width: 18px;
+        }
+        .slick-list {
+            // left: 16px;
+            // margin: 0 -27px;
+        }
+        .slick-slide {
+            // margin: 0 27px;
+        }
+        .slick-track {
+            transform: translate3d(-1110px, 0px, 0px);
+        }
+    }
+}
+@media only screen and (max-width:767px) { 
+
+}
+@media only screen and (min-width:1920px) { 
+    .content-videos-slider {
+        .content-videos-slider-item {
+            .image-wrapper {
+                iframe {
+                   width: 100%;
+                }
             }
         }
     }
