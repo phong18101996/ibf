@@ -92,12 +92,8 @@ $(document).ready(function() {
       infinite: true,
       speed: 300,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      adaptiveHeight: true,
+      slidesToScroll: 1,
       dots:false,
-      draggable: true,
-      swipeToSlide: true,
-      variableWidth: false,
       responsive: [
         {
           breakpoint: 425,
@@ -122,7 +118,7 @@ $(document).ready(function() {
           },
       ],
     });
-    
+
   // $('.slide:first').addClass('first-slide-is-active111');
 
   // $('.content-videos-slider-item').on('afterChange', function (event, slick, currentSlide) {
