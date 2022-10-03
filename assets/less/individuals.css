@@ -1,0 +1,44 @@
+.individuals {
+  padding: 30px 0px;
+}
+.individuals .group-text-title {
+  padding: 0px 0px 30px;
+}
+.individuals .group-text-title .title {
+  font-family: GuardianSansBold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #464749;
+  padding: 0px 0px 15px;
+}
+.individuals .group-text-title .text {
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  color: #464749;
+  padding: 15px 0px 0px;
+}
+.individuals .individuals-items {
+  padding: 30px 0px 0px;
+}
+.individuals .individuals-items .strong-title p {
+  font-family: GuardianSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #464749;
+  padding: 0px 0px 15px;
+  width: 50%;
+  min-height: 90px;
+}
+.individuals .individuals-items .text p {
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #464749;
+  padding: 15px 0px 0px;
+}
+.individuals .individuals-items .item img {
+  padding: 0px 0px 15px;
+}
