@@ -1,0 +1,103 @@
+.event-overview {
+  padding: 30px 0px;
+}
+.event-overview .group-text-title {
+  padding-bottom: 28px;
+}
+.event-overview .group-text-title .title {
+  font-family: GuardianSansBold;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #464749;
+  border-left: 8px solid #A7CB19;
+  padding-left: 18px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  min-height: 50px;
+}
+.event-overview .group-text-title .text {
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  color: #464749;
+  padding-top: 30px;
+}
+.event-overview .note-content {
+  padding-top: 28px;
+}
+.event-overview .note-content .title {
+  font-family: GuardianSansBold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #464749;
+}
+.event-overview .note-content ul li {
+  font-family: GuardianSansRegular;
+  line-height: 24px;
+  color: #464749;
+}
+.event-overview .right-item .register {
+  padding: 20px 0px 20px;
+}
+.event-overview .right-item .register a {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 13px;
+  height: 50px;
+  background: #D3DE46;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  font-family: GuardianSansMedium;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #727570;
+}
+.event-overview .right-item .register a:hover {
+  text-decoration: none;
+}
+.event-overview .right-item .event-infor {
+  background: #F0EEEC;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px;
+  margin: 40px 0px;
+}
+.event-overview .right-item .event-infor .name {
+  font-family: GuardianSansBold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #464749;
+  padding-bottom: 34px;
+}
+.event-overview .right-item .event-infor .mail-detail,
+.event-overview .right-item .event-infor .phone-detail {
+  padding-bottom: 15px;
+}
+.event-overview .right-item .event-infor .mail-detail p,
+.event-overview .right-item .event-infor .phone-detail p {
+  font-family: GuardianSansMedium;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #464749;
+  padding-left: 22px;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  .event-overview {
+    padding: 15px 0px;
+  }
+  .event-overview .right-item .register {
+    padding: 0;
+  }
+  .event-overview .note-content {
+    padding-top: 0px;
+  }
+}

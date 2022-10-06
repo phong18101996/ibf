@@ -13,6 +13,12 @@
   color: #464749;
   padding: 8px 0px 10px;
 }
+.ct-3-col-and-filter .group-text-title .upcoming-events {
+  font-family: GuardianSansBold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #495057;
+}
 .ct-3-col-and-filter .filter {
   padding: 10px 0px 20px;
 }
