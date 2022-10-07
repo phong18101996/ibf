@@ -2100,10 +2100,9 @@ html {
 .event-overview {
   padding: 30px 0px;
 }
-.event-overview .group-text-title {
-  padding-bottom: 28px;
-}
-.event-overview .group-text-title .title {
+.event-overview .title,
+.event-overview .schedule-title,
+.event-overview .title-speakers {
   font-family: GuardianSansBold;
   font-size: 26px;
   line-height: 30px;
@@ -2116,12 +2115,90 @@ html {
   margin-bottom: 0px;
   min-height: 50px;
 }
+.event-overview .group-text-title {
+  padding-bottom: 28px;
+}
 .event-overview .group-text-title .text {
   font-family: GuardianSansRegular;
   font-size: 17px;
   line-height: 24px;
   color: #464749;
   padding-top: 30px;
+}
+.event-overview .group-schedule .schedule-table {
+  padding: 30px 0px;
+}
+.event-overview .group-schedule .schedule-table th {
+  background: #F2F2BC;
+  border: 0.5px solid #9FA19D;
+  border-radius: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: GuardianSansBold;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #464749;
+}
+.event-overview .group-schedule .schedule-table td {
+  background: #FFFFFF;
+  border: 0.5px solid #9FA19D;
+  border-radius: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: GuardianSansRegular;
+  font-size: 17px;
+  line-height: 24px;
+  color: #464749;
+}
+.event-overview .group-speakers .speaker-item p {
+  font-family: GuardianSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6B5A4D;
+}
+.event-overview .content-event-popup .group-avatar {
+  padding: 30px 20px;
+}
+.event-overview .content-event-popup .group-avatar .group-name .name {
+  font-family: GuardianSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B5A4D;
+}
+.event-overview .content-event-popup .group-avatar .group-name .position {
+  font-family: GuardianSansRegular;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6B5A4D;
+}
+.event-overview .content-event-popup .group-avatar .group-name .description {
+  font-family: GuardianSansThin;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B5A4D;
+}
+.event-overview .content-event-popup .about-speaker {
+  padding: 30px 20px;
+}
+.event-overview .content-event-popup .about-speaker .speaker-title {
+  font-family: GuardianSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B5A4D;
+  padding-bottom: 10px;
+}
+.event-overview .content-event-popup .about-speaker p,
+.event-overview .content-event-popup .about-speaker ul,
+.event-overview .content-event-popup .about-speaker li {
+  font-family: GuardianSansRegular;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6B5A4D;
 }
 .event-overview .note-content {
   padding-top: 28px;
@@ -2188,6 +2265,9 @@ html {
   color: #464749;
   padding-left: 22px;
   margin-bottom: 0;
+}
+.w-event-speaker {
+  min-width: 715px;
 }
 @media only screen and (max-width: 767px) {
   .event-overview {

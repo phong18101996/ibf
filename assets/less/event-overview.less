@@ -1,26 +1,109 @@
 .event-overview {
     padding: 30px 0px;
+    .title , .schedule-title ,.title-speakers {
+        font-family: GuardianSansBold;
+        font-size: 26px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #464749;
+        border-left: 8px solid #A7CB19;
+        padding-left: 18px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        min-height: 50px;
+    }
     .group-text-title {
         padding-bottom: 28px;
-        .title {
-            font-family: GuardianSansBold;
-            font-size: 26px;
-            line-height: 30px;
-            display: flex;
-            align-items: center;
-            color: #464749;
-            border-left: 8px solid #A7CB19;
-            padding-left: 18px;
-            padding-top: 0px;
-            margin-bottom: 0px;
-            min-height: 50px;
-        }
         .text {
             font-family: GuardianSansRegular;
             font-size: 17px;
             line-height: 24px;
             color: #464749;
             padding-top: 30px;
+        }
+    }
+    .group-schedule {
+        .schedule-table {
+            padding: 30px 0px;
+            th {
+                background: #F2F2BC;
+                border: 0.5px solid #9FA19D;
+                border-radius: 0px;
+                box-shadow:0px 4px 10px rgba(0, 0, 0, 0.2);
+                font-family: GuardianSansBold;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                color: #464749;
+            }
+            td {
+                background: #FFFFFF;
+                border: 0.5px solid #9FA19D;
+                border-radius: 0px;
+                box-shadow:0px 4px 10px rgba(0, 0, 0, 0.2);
+                font-family: GuardianSansRegular;
+                font-size: 17px;
+                line-height: 24px;
+                color: #464749;
+            }
+        }
+    }
+    .group-speakers {
+        .speaker-item {
+            p {
+                font-family: GuardianSansBold;
+                font-size: 20px;
+                line-height: 24px;
+                color: #6B5A4D;
+            }
+        }
+    }
+    .content-event-popup {
+        .group-avatar {
+            padding: 30px 20px;
+            .group-name {
+                .name {
+                    font-family: GuardianSansBold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    color: #6B5A4D;
+                }
+                .position {
+                    font-family: GuardianSansRegular;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #6B5A4D;
+                }
+                .description {
+                    font-family: GuardianSansThin;
+                    font-size: 17px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    color: #6B5A4D;
+                }
+            }
+        }
+        .about-speaker {
+            padding: 30px 20px;
+            .speaker-title {
+                font-family: GuardianSansBold;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #6B5A4D;
+                padding-bottom: 10px;
+            }
+            p , ul , li {
+                font-family: GuardianSansRegular;
+                font-size: 20px;
+                line-height: 24px;
+                color: #6B5A4D;
+            }
         }
     }
     .note-content {
@@ -92,6 +175,9 @@
             }
         }
     }
+}
+.w-event-speaker {
+    min-width: 715px;
 }
 @media only screen and (max-width:767px) {  
     .event-overview {
