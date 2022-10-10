@@ -1,0 +1,4 @@
+.horizontal-menu .dropdown-menu {
+  transform: translate3d(6px, 41px, 0px) !important;
+  min-width: 66rem;
+}

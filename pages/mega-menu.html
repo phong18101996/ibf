@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/less/main.css">
+    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/subscribe-form.css">
+    <!-- <link rel="stylesheet" href="../assets/css/stacked-slides.css"> -->
+
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <!-- <script src="../assets/js/stacked-slides.js"></script> -->
+    
+<title>Homepage</title>
+</head>
+
+<body>
+   
+    <div class="header">
+        <div class="notification row">
+          <div class="container">
+            <div class="col-12 d-flex text">
+              <p>
+                Advisory on IBF Examinations &ndash; Wef 6 December 2021, all IBF Examinations will be conducted at IBF
+                Assessment Centre at 20 Anson Building, #05-01 Singapore 079912
+              </p><img src="../assets/images/close.svg">
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-menu row">
+          <div class="logo col-5 col-md-3 d-flex align-items-center justify-content-center"><img src="../assets/images/logo.svg"></div>
+          <div class="menu col-7 col-md-9 row">
+            <div class="col-12 group-search my-4 mt-lg-5">
+              <p><img src="../assets/images/search.svg"></p>
+              <p>Login</p>
+              <p class="d-none d-lg-flex">FAQ</p>
+              <p class="subscribe">Subscribe</p>
+              <div class="hamburger d-block d-lg-none" onclick="openMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="bar4"></div>
+              </div>
+            </div>
+            <div class="col-12 group-menu d-none d-lg-flex mt-2 mt-lg-5">
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About IBF</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="item">
+                                        <div class="group-description">
+                                           <p> Partner  with  IBF</p>
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="d-flex">
+                                                <img src="../assets/images/mega-menu/mega-menu-vector.svg">
+                                                <a href="">Overview</a>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="../assets/images/mega-menu/mega-menu-vector.svg">
+                                                <a href="">Jobs Transformation Roadmap for Financial Services</a>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="../assets/images/mega-menu/mega-menu-vector.svg">
+                                                <a href="">Skills Framework for Financial Services</a>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="../assets/images/mega-menu/mega-menu-vector.svg">
+                                                <a href="">In-house Programme Recognition</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a> -->
+                </div>
+              </div>
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Individuals</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+              </div>
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Financial Institutions</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+              </div>
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Training Providers</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+              </div>
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career Advisory</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+              </div>
+              <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-12 mobile-menu">
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About IBF</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Individuals</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Financial Institutions</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Training Providers</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career Advisory</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+          <div class="dropdown"><a class="button btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+          </div>
+        </div> -->
+      </div>
+   <!-- slider homepage -->
+   <div class="slider single-item">
+    <div class="slider-item" style="background-image: url('../assets/images/beautiful-architecture-building.png');background-size: 100% 100%;">
+        <div class="information">
+            <div class="style-position">
+                <p class="text">Copy 1 related to video here for context maximum 3 lines</p>
+                <a>Find out more ></a>
+                <img class="pause-icon" src="../assets/images/pause.svg">
+            </div>
+       
+       </div>
+    </div>
+    <div class="slider-item" style="background-image: url('../assets/images/beautiful-architecture-building.png');background-size: 100% 100%;">
+        <div class="information">
+            <div class="style-position">
+                <p class="text">Copy 1 related to video here for context maximum 3 lines</p>
+                <a>Find out more ></a>
+                <img class="pause-icon" src="../assets/images/pause.svg">
+            </div>
+       </div>
+    </div>
+    <div class="slider-item" style="background-image: url('../assets/images/beautiful-architecture-building.png');background-size: 100% 100%;">
+        <div class="information">
+            <div class="style-position">
+                <p class="text">Copy 1 related to video here for context maximum 3 lines</p>
+                <a>Find out more ></a>
+                <img class="pause-icon" src="../assets/images/pause.svg">
+            </div>
+       </div>
+    </div>
+    <!-- <img src="../assets/images/beautiful-architecture-building.png">
+    <img src="../assets/images/beautiful-architecture-building.png">
+    <img src="../assets/images/beautiful-architecture-building.png"> -->
+    </div>
+   <div class="block-quotes">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="quote">
+                    <img class="left-quote" src="../assets/images/left-quotes.svg">
+                    <p class="text-quotes">
+                        
+                            IBF will continue to work together with our stakeholders and partners, to develop new initiatives and drive greater adoption of our programmes, to build a world-class financial sector workforce in Singapore.
+                        
+                    </p>
+                    <img class="right-quote" src="../assets/images/right-quotes.svg">
+                </div>
+                <div class="author">
+                    <p class="name">
+                        Ravi Menon
+                    </p>
+                    <p class="position">
+                        Chairman, IBF
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="marketing-information">
+        <div class="container">
+            <div class="item row">
+                <div class="content col-4">
+                    <p class="title">How can we help?</p>
+                    <p class="text">As the appointed Jobs Development Partner for the Financial Industry, IBF serves as an integrated service provider in skills development, career advisory and workforce transformation.</p>
+                </div>
+                <div class="revolver col-8">
+                    <div class="d-flex">
+                        <div class="item left">
+                            <div class="programmes">
+                                <p>IBF Training Programmes</p>
+                                <img src="../assets/images/subtract.svg">
+                            </div>
+                        </div>
+                        <div class="item center">
+                            <div class="certification">
+                                <p>IBF Training Programmes</p>
+                                <img src="../assets/images/subtract.svg">
+                            </div>
+                        </div>
+                        <div class="item right">
+                            <div class="events">
+                                <p>IBF Training Programmes</p>
+                                <img src="../assets/images/subtract.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="begin-module">
+    <div class="container">
+        <div class="item row">
+            <div class="col-sm-4 text-begin">
+                <p>Where to begin?</p>
+            </div>
+            <div class="col-sm-4 center-text">
+                <p>We understand that you are new in the industry and are interested to pursue your professional development.
+                    Just click on the ‘Start’ button to begin!</p>
+            </div>
+            <div class="col-sm-4">
+                <button>
+                    Start
+                </button>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="testimonials">
+    <div class="container">
+        <p>Straight from the source</p>
+        <div class="list-testimonials row">
+            <div class="item col-4">
+                <img src="../assets/images/testimonial-3-1-1.png">
+                <img class="play-video" src="../assets/images/play-video.svg">
+            </div>
+            <div class="item col-4">
+                <img src="../assets/images/testimonial-3-1-2.png">
+                <img class="play-video" src="../assets/images/play-video.svg">
+            </div>
+            <div class="item col-4">
+                <img src="../assets/images/testimonial-3-1-3.png">
+                <img class="play-video" src="../assets/images/play-video.svg">
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="event-module">
+    <div class="container">
+        <p class="title">IBF Events</p>
+        <div class="fw-event row">
+            <div class="col-sm-6 left-item">
+                <img src="../assets/images/event_image_3.png">
+                <div class="date-time">
+                    <p>1 <br>JUN </p>
+                    <!-- <p>JUN</p> -->
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <p class="content-title">Wealth Management Accelerator Programme (WMAP) Info Session</p>
+                <div class="content">
+                    <p class="sub-title">IBF Career Advisory Talk</p>
+                    <p class="text">Event description autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+                    <a href="">
+                        Find out more ></a>
+                </div>
+            </div>
+        </div> 
+        <div class="column-event row">
+            <div class="item col-sm-4">
+                <div class="bg-iframe">
+                    <img src="../assets/images/event_image_1.png">
+                    <div class="date-time">
+                        <p>1 <br>JUN </p>
+                    </div>
+                    
+                        <p class="name">
+                            Wealth Management Accelerator Programme (WMAP) Info Session
+                        </p>
+                    
+                </div>
+                <div class="content">
+                    <p class="sub-title">IBF Career Advisory Talk</p>
+                    <p class="text">Event description autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+                    <a href="">
+                        Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-4">
+                <div class="bg-iframe">
+                    <img src="../assets/images/event_image_4.png">
+                    <div class="date-time">
+                        <p>1 <br>JUN </p>
+                    </div>
+                    <p class="name">
+                        Wealth Management Accelerator Programme (WMAP) Info Session
+                    </p>
+                </div>
+                <div class="content">
+                    <p class="sub-title">IBF Career Advisory Talk</p>
+                    <p class="text">Event description autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+                    <a href="">
+                        Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-4">
+                <div class="bg-iframe">
+                    <img src="../assets/images/event_image_2.png">
+                    <div class="date-time">
+                        <p>1 <br>JUN </p>
+                    </div>
+                    <p class="name">
+                        Wealth Management Accelerator Programme (WMAP) Info Session
+                    </p>
+                </div>
+                <div class="content">
+                    <p class="sub-title">IBF Career Advisory Talk</p>
+                    <p class="text">Event description autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+                    <a href="">
+                        Find out more ></a>
+                </div>
+            </div>
+        </div>
+        <div class="events-button">
+            <button>See all Events</button>
+        </div>
+    </div>
+   </div>
+   <div class="subscribe-form">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    <div class="form-content row">
+
+                        <div class="item col-sm-4" style="background-image: url('../assets/images/subscribe-form/pexels-mikhail-nilov-8101506.png');">
+                            <div class="bg">
+                                <div class="text">
+                                    <p class="title">In-Demand 
+                                        Skills</p>
+                                        <p class="sub-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item col-sm-4" style="background-image: url('../assets/images/subscribe-form/viktor-forgacs-jBTMrR6Q334-unsplash.png');">
+                            <div class="bg">
+                              <div class="text">
+                                  <p class="title">Industry Webinars
+                                      & Events</p>
+                                      <p class="sub-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                                 </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item col-sm-4" style="background-image: url('../assets/images/subscribe-form/pexels-mart-production-7643760.png');">
+                            <div class="bg">
+                                <div class="text">
+                                    <p class="title">Career Opportunities
+                                        & Resources</p>
+                                        <p class="sub-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-submit">
+
+                        <div class="d-flex justify-content-center">
+                            <input class="email" placeholder="Email">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="submit-btn">Subscribe</button>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p>*By subscribing to the IBF Alerts, you are confirming that you have read and understood IBF's Privacy Policy, and are providing your consent to receive marketing emails from IBF.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="big-title d-flex justify-content-center">
+                        <p>Find your way in the finance landscape</p>
+                        <img class="close" data-dismiss="modal" aria-label="Close" src="../assets/images/subscribe-form/fontisto_close.svg">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- new -->
+    <div class="register-examinations" style="background-image: url('../assets/images/register-examinations/frame-627942.png')">
+        <div class="register-block col-12">
+            <p class="title d-flex justify-content-center">
+                Want to register for IBF Examinations?
+            </p>
+            <p class="sub-title d-flex justify-content-center">
+                All examination registrations must be made online. Candidates must create an account in the IBF Portal to access all examinations services.
+            </p>
+            <div class="register-btn d-flex justify-content-center">
+                <button>Register Now</button>
+                <button>Need help? Contact IBF Exam Team</button>
+            </div>
+        </div>
+    </div>
+    <!-- thank you form -->
+    <div class="thank-you-form">
+        <div class="modal fade" id="thanks-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+
+                    <div class="group-text-title">
+                        <div class="col-12 d-flex justify-content-center">
+                            <p class="thank-you-title">Thank you for subscribing!</p>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <p class="check-out-text">Check out some of IBF services that may interest you.</p>
+                        </div>
+                        <img class="close" data-dismiss="modal" aria-label="Close" src="../assets/images/subscribe-form/fontisto_close.svg">
+                    </div>
+
+                    <div class="form-content row">
+
+                        <div class="item" style="background-image: url('../assets/images/thank-you-form/thanks-form-bg-1.png');">
+                            <div class="bg">
+                                <div class="text">
+                                        <p class="sub-title">Skills Framework for Financial Services</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item" style="background-image: url('../assets/images/thank-you-form/thanks-form-bg-2.png');">
+                            <div class="bg">
+                              <div class="text">
+                                      <p class="sub-title">Funding
+                                        Support &
+                                        Schemes</p>
+                                 </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item" style="background-image: url('../assets/images/thank-you-form/thanks-form-bg-3.png');">
+                            <div class="bg">
+                                <div class="text">
+                                        <p class="sub-title">Programme Recognition Process</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item" style="background-image: url('../assets/images/thank-you-form/thanks-form-bg-4.png');">
+                            <div class="bg">
+                                <div class="text">
+                                        <p class="sub-title">Claims
+                                            Submission</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="examination-interested row">
+        <div class="container">
+            <div class="title">
+                <p>You might be interested in...</p>
+            </div>
+           <div class="group-item row">
+            <div class="item col-sm-2" style="background-image: url('../assets/images/examinatons-interested/unsplash_npxXWgQ33ZQ.png');">
+                <div class="bg">
+                    <p>CPD Requirement</p>
+                </div>
+            </div>
+            <div class="item col-sm-2" style="background-image: url('../assets/images/examinatons-interested/unsplash_Oalh2MojUuk.png');">
+                <div class="bg">
+                    <p>Programmes</p>
+                </div>
+            </div>
+            <div class="item col-sm-2" style="background-image: url('../assets/images/examinatons-interested/unsplash_376KN_ISplE.png');">
+               <div class="bg">
+                <p>Career
+                    Advisory</p>
+               </div>
+            </div>
+            <div class="item col-sm-2" style="background-image: url('../assets/images/examinatons-interested/unsplash_wiZxbn6rix4.png');">
+                <div class="bg">
+                    <p>Training Support</p>
+                </div>
+            </div>
+            <div class="item col-sm-2" style="background-image: url('../assets/images/examinatons-interested/unsplash_OQMZwNd3ThU.png');">
+                <div class="bg">
+                    <p>Claims
+                        Submission</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!-- CMFAS Examinations -->
+    <div class="announcements-slider">
+        <div class="block-filter-prev-next-btn d-flex">
+            <div class="container">
+                <div class="block-filter col-sm-3">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option selected>Latest to Oldest</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="block-prev-next">
+
+                </div>
+            </div>
+        </div>
+        <div class="announcements-slider-item row">
+           <div class="container d-flex announcements-slider-event">
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Updates on Module M4A </p>
+                <p class="content">Module M4A has been updated (V5.4) on Feb 2022</p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Advisory on IBF Examinations – IBF Assessment Centre </p>
+                <p class="content">Effective 6 December 2021, all IBF examinations will conducted at: IBF Assessment Centre, 20 Anson Road, #05-01, ... </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+            <div class="item col-sm-3">
+                <p class="first-title">CMFAS Study Guide Updates</p>
+                <p class="second-title">Temporary Arrangements Regarding Financial Markets Regulatory Practices (FMRP) Examination </p>
+                <p class="content">In view of the COVID-19 situation, the IBF (Institute of Banking and Finance) has suspended the administration of all 
+                </p>
+                <div class="group-date-link d-flex">
+                    <p>30 Feb 2022</p>
+                    <a href="">Find out more ></a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <div class="why-certified">
+        <div class="row m-0">
+            <div class="container d-flex">
+                <div class="text-item col-12 col-sm-5">
+                    <div class="title">
+                       <p> What is IBF Certification?</p>
+                    </div>
+                    <div class="text">
+                        <p>IBF Certification is an industry endorsed mark of quality for finance professionals in Singapore. Individuals who successfully complete an eligible IBF-Standards Training Scheme ("IBF-STS") accredited assessment programme and meet 
+                            the relevant criteria may apply for IBF Certification.</p>
+                        <p>
+
+                            The IBF Certification is awarded to practitioners who have attained the required 
+                            skills for the selected industry segment and function,
+                             and are expected to uphold values of professional excellence, 
+                            integrity and commitment to the industry.</p>
+                    </div>
+                </div>
+                <div class="video-item col-12 col-sm-7 pl-0">
+                    <iframe width="767" height="525" src="https://www.youtube.com/embed/NWY799Pp49w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="certification-benefits">
+        <div class="container">
+            <div class="title-and-text">
+                <p class="title">IBF Certification Benefits</p>
+                <p class="text">As an IBF Certified Practitioner, you will be part of a growing community of over 8,000 financial professionals across 12 industry segments in the financial industry. 
+                    With your IBF Certification, you will enjoy the following:</p>
+            </div>
+            <div class="position">
+                <div class="item item-01 row m-0">
+                    <div class="certification-benefits-bg d-flex col-12 col-sm-10">
+                         <div class="left-text col-12 col-sm-6">
+                             <p class="title">Industry Recognition</p>
+                             <p class="content text-left">IBF Certification is an industry endorsed mark of quality for finance professionals. Certified individuals may use the professional certification titles IBF Qualified “IBFQ”; or IBF Advanced “IBFA” depending on the level of certification accorded by IBF. </p>
+                             <button>Find out more</button>
+                         </div>
+                         <div class="text col-12 col-sm-6">
+                             <img src="../assets/images/certification-benefits/industry.png">
+                         </div>
+                    </div>
+                 </div>
+                 <div class="item item-02 row m-0">
+                     <div class="network-opportunities d-flex col-12 col-sm-10">
+                         <div class="left-text col-12 col-sm-6">
+                             <p class="title">Network Opportunities</p>
+                             <p class="content text-left">IBF Certification is an industry endorsed mark of quality for finance professionals. Certified individuals may use the professional certification titles IBF Qualified “IBFQ”; or IBF Advanced “IBFA” depending on the level of certification accorded by IBF. </p>
+                             <button>Find out more</button>
+                         </div>
+                         <div class="text col-12 col-sm-6">
+                             <img src="../assets/images/certification-benefits/network.png">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="item item-03 row m-0">
+                     <div class="find-more-column-3  d-flex col-12 col-sm-10" style="background-image: url('../assets/images/certification-benefits/trainning-programmes.png');">
+                         <div class="left-text col-12 col-sm-4">
+                             <p class="title d-flex justify-content-center ">Industry Recognition</p>
+                             <p class="content d-flex justify-content-center">IBF Certification is an industry endorsed mark of quality for finance professionals. Certified individuals may use the professional certification titles IBF Qualified “IBFQ”; or IBF Advanced “IBFA” depending on the level of certification accorded by IBF. </p>
+                             <div class="d-flex justify-content-center">
+                                 <button class="text-center">Find out more</button>
+                             </div>
+                         </div>
+                         <div class="left-text col-12 col-sm-4">
+                             <p class="title d-flex justify-content-center">Industry Recognition</p>
+                             <p class="content d-flex justify-content-center">IBF Certification is an industry endorsed mark of quality for finance professionals. Certified individuals may use the professional certification titles IBF Qualified “IBFQ”; or IBF Advanced “IBFA” depending on the level of certification accorded by IBF. </p>
+                             <div class="d-flex justify-content-center">
+                                 <button class="text-center">Find out more</button>
+                             </div>
+                         </div>
+                         <div class="left-text col-12 col-sm-4">
+                             <p class="title d-flex justify-content-center">Industry Recognition</p>
+                             <p class="content d-flex justify-content-center">IBF Certification is an industry endorsed mark of quality for finance professionals. Certified individuals may use the professional certification titles IBF Qualified “IBFQ”; or IBF Advanced “IBFA” depending on the level of certification accorded by IBF. </p>
+                             <div class="d-flex justify-content-center">
+                                 <button class="text-center">Find out more</button>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-2 item">
+                    <div class="logo">
+                        <img src="../assets/images/ibf-lockup.svg">
+                    </div>
+                </div>
+                <div class="col-sm-2 item w-12">
+                    <p class="title">Quick Links</p>
+                    <div class="links information">
+                        <a href="">Contact Us</a>
+                        <a href="">FAQ</a>
+                        <a href="">Join Us</a>
+                    </div>
+                </div>
+                <div class="col-sm-2 item w-20">
+                    <p class="title"> The Institute of Banking & Finance </p>
+                    <p class="information"> 10 Shenton Way, MAS Building #13-07/08 Singapore 079117</p>
+                </div>
+            
+                <div class="col-sm-2 item w-20">
+                    <p class="title">IBF Assessment Centre</p>
+                    <p class="information">20 Anson Road, #05-01, 20 Anson Building, Singapore 079912</p>
+                </div>
+
+                <div class="col-sm-2 item">
+                    <div class="social-network">
+                        <a href=""><img src="../assets/images/facebook.svg"></a>
+                        <a href=""><img src="../assets/images/in.svg"></a>
+                        <a href=""><img src="../assets/images/twitter.svg"></a>
+                        <a href=""><img src="../assets/images/instagram-2.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>© The Institute of Banking & Finance    |    Sitemap    |    Privacy Policy</p>
+                    <p>Best Viewed using the latest versions of Chrome, Firefox, Safari and Internet Explorer.</p>
+                </div>
+                <!-- <div class="col-sm-4">
+                    <p>Best Viewed using the latest versions of Chrome, Firefox, Safari and Internet Explorer.</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+   </footer>
+</body>
+
+</html>
