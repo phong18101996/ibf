@@ -605,6 +605,43 @@
 .horizontal-menu .dropdown-menu {
   transform: translate3d(6px, 41px, 0px) !important;
   min-width: 66rem;
+  background: #F9F9F9;
+  border-top: 1px solid #95B41F;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.horizontal-menu .dropdown-menu .description {
+  font-family: GuardianSansBold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #95B41F;
+}
+.horizontal-menu .dropdown-menu .sub-title {
+  font-family: GuardianSansRegular;
+  font-size: 12px;
+  line-height: 16px;
+  color: #727570;
+}
+.horizontal-menu .dropdown-menu .list-item a {
+  font-family: GuardianSansRegular;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #464749;
+  padding-left: 10px;
+}
+.horizontal-menu .dropdown-menu .list-item a:hover {
+  text-decoration: none;
+}
+.horizontal-menu .dropdown-menu .list-item div {
+  padding: 10px 0px;
+}
+.horizontal-menu .dropdown-menu .column-item {
+  border-right: 1px solid #95B41F;
+}
+.horizontal-menu .dropdown-menu .column-item .item {
+  margin: 0px 20px;
 }
 .subscribe-form .form-content .item {
   width: 340px;

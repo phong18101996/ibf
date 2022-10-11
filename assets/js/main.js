@@ -1,3 +1,7 @@
+function openMenu(x) {
+  x.classList.toggle("change");
+  $('.mobile-menu').slideToggle()
+}
 $(document).ready(function() { 
     $('.announcements-slider-event').slick({
         dots: true,
